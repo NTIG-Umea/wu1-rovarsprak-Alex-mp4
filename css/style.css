@@ -5,16 +5,27 @@ html, body {
 
 body {
     display: flex;
+    background-color: #dcdcdc;
 }
 
 header {
     display: flex;
     justify-content: center;
+    background-color: darkgrey;
+    max-width: 100%;
+    width: 1000rem;
+    border-bottom: 5px dimgrey;
+}
+
+header:hover {
+    float: right;
+    margin-left: 2em;
 }
 
 main {
     max-width: 48rem;
     margin: 0 auto;
+    font-family: 'Concert One', cursive;
 }
 
 .inputbox {
@@ -24,6 +35,29 @@ main {
 
 .inputbox > input, button {
     margin: 0.5rem;
+    color: dimgray;
+}
+
+input {
+    width: 9.6rem;
+    height: 9.6rem;
+}
+
+input:hover {
+    border-radius: 100%;
+    background-image: url(../image/tenor.gif);
+    background-position: center;
+}
+
+button {
+    width: 10rem;
+    height: 10rem;
+}
+
+button:hover {
+    border-radius: 100%;
+    background-image: url(../image/tenor.gif);
+    background-position: center;
 }
 
 #message {
